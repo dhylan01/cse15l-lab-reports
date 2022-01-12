@@ -1,7 +1,8 @@
+##Second heading
 # First heading
 *This is italisized text*
 **This is bolded text**
-\
+
 
 [Link](https://dhylan01.github.io/cse15l-lab-reports/)
 ![Image](https://media.techeblog.com/images/liberty-walk-ferrari-308.jpg)
