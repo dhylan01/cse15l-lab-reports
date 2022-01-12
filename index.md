@@ -12,7 +12,7 @@ This is a test for horizontal rule
 
 > `Blockquote` maybe 
 
-##Second Heading
+
 *List item 1
 *List item 2
 
