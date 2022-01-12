@@ -13,8 +13,8 @@ This is a test for horizontal rule
 > `Blockquote` maybe 
 
 
-*List item 1
-*List item 2
+* List item 1
+* List item 2
 
 1. Different list Item 1
 2. Different list item 2
