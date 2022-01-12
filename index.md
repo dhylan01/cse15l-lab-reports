@@ -10,7 +10,7 @@ Horizontal rule:
 This is a test for horizontal rule
 ---
 
->'Blockquote' maybe 
+> `Blockquote` maybe 
 
 ##Second Heading
 *List item 1
@@ -18,6 +18,6 @@ This is a test for horizontal rule
 
 1. Different list Item 1
 2. Different list item 2
-'''
+```
 # this is a small code block
-'''
+```
