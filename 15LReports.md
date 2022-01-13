@@ -1,0 +1,1 @@
+[Lab Report Week 1 and 2](https://dhylan01.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
