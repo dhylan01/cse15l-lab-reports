@@ -1,5 +1,7 @@
 # First heading
 
+![Image](sc1.png)
+
 _This is italisized text_
 **This is bolded text**
 
