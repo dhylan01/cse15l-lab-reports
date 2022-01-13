@@ -1,2 +1,2 @@
 # Week 1 & 2 lab reports
-![][sc1.png]
+![Image](sc1.png)
