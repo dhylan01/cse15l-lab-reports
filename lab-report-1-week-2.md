@@ -30,54 +30,60 @@
    - To logout you can use Ctrl-D or run the command exit
 
 4. Moving Files with scp:
-- Here is a VS code screenshot with the directory listed
 
+- Here is a VS code screenshot with the directory listed
+![Image](VSCodeLogin.png)
 - The command to use in order to move this file (using the same email address without logging in) onto the server directory is:
+
 ```
 scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/
 ```
--Next login and use the command > ls
--The server directory should then look like this:
+
+- Next login and use the command > ls
+- The server directory should then look like this:
+ ![Image](VSCodeCopyingFile.png)
 
 5. Setting an SSH Key:
-   - If you have not already, logout of the server and type in the command:
-      ```
-      ssh-keyge
-      
-      # on client (your computer)
-      Generating public/private rsa key pair.
-      Enter file in which to save the key (/Users/joe/.ssh/id_rsa): /Users/joe/.ssh/id_rsa
-      Enter passphrase (empty for no passphrase): 
-      Enter same passphrase again: 
-      Your identification has been saved in /Users/joe/.ssh/id_rsa.
-      Your public key has been saved in /Users/joe/.ssh/id_rsa.pub.
-      The key fingerprint is:
-      SHA256:jZaZH6fI8E2I1D35hnvGeBePQ4ELOf2Ge+G0XknoXp0 joe@Joes-Mac-mini.local
-      The key's randomart image is:
-      +---[RSA 3072]----+
-      |                 |
-      |       . . + .   |
-      |      . . B o .  |
-      |     . . B * +.. |
-      |      o S = *.B. |
-      |       = = O.*.*+|
-      |        + * *.BE+|
-      |           +.+.o |
-      |             ..  |
-      +----[SHA256]-----+
 
-      ```
-   - Continue to press return and your Key Should look something like this in the terminal 
-   
+   - If you have not already, logout of the server and type in the command:
+
+     ```
+     ssh-keygen
+     # on client (your computer)
+     Generating public/private rsa key pair.
+     Enter file in which to save the key (/Users/joe/.ssh/id_rsa): /Users/joe/.ssh/id_rsa
+     Enter passphrase (empty for no passphrase):
+     Enter same passphrase again:
+     Your identification has been saved in /Users/joe/.ssh/id_rsa.
+     Your public key has been saved in /Users/joe/.ssh/id_rsa.pub.
+     The key fingerprint is:
+     SHA256:jZaZH6fI8E2I1D35hnvGeBePQ4ELOf2Ge+G0XknoXp0 joe@Joes-Mac-mini.local
+     The key's randomart image is:
+     +---[RSA 3072]----+
+     |                 |
+     |       . . + .   |
+     |      . . B o .  |
+     |     . . B * +.. |
+     |      o S = *.B. |
+     |       = = O.*.*+|
+     |        + * *.BE+|
+     |           +.+.o |
+     |             ..  |
+     +----[SHA256]-----+
+
+     ```
+
+   - Continue to press return and your Key Should look something like this in the terminal
+
    - Then login and type the following commad and change the ucsd email accordingly and change users for your computer(should be seen in the screenshot above)
-      ```
-      $ ssh cs15lwi22zz@ieng6.ucsd.edu
-      <Enter Password>
-      $ mkdir .ssh
-      $ <logout>
-      $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
-      ```
-      
+     ```
+     $ ssh cs15lwi22zz@ieng6.ucsd.edu
+     <Enter Password>
+     $ mkdir .ssh
+     $ <logout>
+     $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
+     ```
+
 6. Optimizing Remote Running
    - It is possible to run commands using quotes. It is also possible to run multiple commands at the same time with a ; before the first command. An example is the screenshot below:
-   - 
+   ![Image](VSCodeRunning2Commands.png)
