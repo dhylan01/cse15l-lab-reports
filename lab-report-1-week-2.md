@@ -13,14 +13,29 @@
    - Here is what it should look like and please not the Additional Accounts tab which will have the email adress name without the domain. Please copy this for later: ![Image](UCSDSSHAccLookup.png)
    - **Important:** Reset the password to your ucsd email account beforehand and allow 10-15 minutes for this change to proccess before proceeding
    - Next: type in the following command to login:
-     > $ ssh < email address copied>@ieng6.ucsd.edu
+   ```
+   $ ssh < email address copied>@ieng6.ucsd.edu
+   ```
    - You will then get this message and select yes to all of these messages
      > ⤇ ssh cs15lwi22zz@ieng6.ucsd.edu
      > The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established. RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.Are you sure you want to continue connecting (yes/no/[fingerprint])?
    - You will then need to enter your password and should be connected.
 3. Trying Some Commands
-    - df
-4. Moving Files with scp
+
+   - Here is a list of commands that you might want to try on both your client and one the server. Please note difference in terminal output of the two as well.
+     - > cd ~
+     - > cd
+     - > ls -a
+     - > cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/
+   - To logout you can use Ctrl-D or run the command exit
+
+4. Moving Files with scp:
+- Here is a VS code screenshot with the directory listed
+
+- The command to use in order to move this file onto the server directory is:
+```
+scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/
+```
 
 5. Setting an SSH Key
 
