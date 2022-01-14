@@ -79,3 +79,5 @@ scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/
       ```
       
 6. Optimizing Remote Running
+   - It is possible to run commands using quotes. It is also possible to run multiple commands at the same time with a ; before the first command. An example is the screenshot below:
+   - 
