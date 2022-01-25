@@ -1,6 +1,6 @@
 # Week 1 & 2 lab reports
 
-1. Installing VScode
+## Installing VScode
 
    -[Download VS Code](https://code.visualstudio.com/download)
    ![Image](vsCodeDownload.png)
@@ -8,7 +8,7 @@
    - Once downloaded, open the package and follow prompts on the screen. Click next past for all of the prompts given without making any changes unless they present immediate problems. The screen should then look like this when you open it:
      ![Image](sc1.png)
 
-2. Remotely Connecting
+## Remotely Connecting
    - When remotely connecting, first start by finding your emote account email. This can be done through the link: https://sdacs.ucsd.edu/~icc/index.php . Next type in your username (the text before the @ sign of your ucsd email adress) and Student ID (with the A or U) and click the submit button.
    - Here is what it should look like and please not the Additional Accounts tab which will have the email adress name without the domain. Please copy this for later: ![Image](UCSDSSHAccLookup.png)
    - **Important:** Reset the password to your ucsd email account beforehand and allow 10-15 minutes for this change to proccess before proceeding
@@ -20,7 +20,7 @@
      > ⤇ ssh cs15lwi22zz@ieng6.ucsd.edu
      > The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established. RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.Are you sure you want to continue connecting (yes/no/[fingerprint])?
    - You will then need to enter your password and should be connected.
-3. Trying Some Commands
+## Trying Some Commands
 
    - Here is a list of commands that you might want to try on both your client and one the server. Please note difference in terminal output of the two as well.
      - > cd ~
@@ -29,7 +29,7 @@
      - > cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/
    - To logout you can use Ctrl-D or run the command exit
 
-4. Moving Files with scp:
+## Moving Files with scp:
 
 - Here is a VS code screenshot with the directory listed
 ![Image](VSCodeLogin.png)
@@ -43,7 +43,7 @@ scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/
 - The server directory should then look like this:
  ![Image](VSCodeCopyingFile.png)
 
-5. Setting an SSH Key:
+## Setting an SSH Key:
 
    - If you have not already, logout of the server and type in the command:
 
@@ -84,6 +84,6 @@ scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/
      $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
      ```
 
-6. Optimizing Remote Running
+## Optimizing Remote Running
    - It is possible to run commands using quotes. It is also possible to run multiple commands at the same time with a ; before the first command. An example is the screenshot below:
    ![Image](VSCodeRunning2Commands.png)
