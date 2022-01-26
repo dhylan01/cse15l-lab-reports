@@ -42,6 +42,7 @@ scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/
 
 - Next login and use the command > ls
 - The server directory should then look like this:
+
  ![Image](VSCodeCopyingFile.png)
 
 ## Setting an SSH Key:
