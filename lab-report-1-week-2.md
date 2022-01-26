@@ -1,6 +1,6 @@
 # Week 1 & 2 lab reports
 
-## Installing VScode
+### Installing VScode
 
    -[Download VS Code](https://code.visualstudio.com/download)
    ![Image](vsCodeDownload.png)
