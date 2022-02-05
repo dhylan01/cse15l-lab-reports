@@ -3,9 +3,9 @@
 ## First Issue
 
 ![Image](labReport2-Issue1.png)
-[Link to test file](https://github.com/dhylan01/markdown-parse/blob/main/newMarkDownParse/test-file.md)
+[Link to test file](https://github.com/dhylan01/markdown-parse/blob/76dad1c876e11862ada2cde6c28a4a28fa40e86b/newMarkDownParse/test-file.md)
 
-Code after running ` javac -cp ".;..\libs\junit-4.12.jar;..\libs\hamcrest-core-1.3.jar" MarkdownParseTest.java ` :
+Code after running `javac -cp ".;..\libs\junit-4.12.jar;..\libs\hamcrest-core-1.3.jar" MarkdownParseTest.java` :
 
 `java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 12`
 `at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4601)`
@@ -13,16 +13,16 @@ Code after running ` javac -cp ".;..\libs\junit-4.12.jar;..\libs\hamcrest-core-1
 `at starter.MarkdownParse.getLinks(MarkdownParse.java:23)`
 `at starter.MarkdownParseTest.MarkdownParse(MarkdownParseTest.java:19)`
 
-Problem that made the test fail: 
+Problem that made the test fail:
 
 - The symptom here is that the test fails for any inputs because it has a problem with dealing with the bounds
-- The failure-inducing test was all tests, but in specific the test-file 
-- There were many bugs for these tests but the first was that imports were missing (fixed and then ran) and also that the markdownParseTest did not have import the files correct with the fileName and contents. 
+- The failure-inducing test was all tests, but in specific the test-file
+- There were many bugs for these tests but the first was that imports were missing (fixed and then ran) and also that the markdownParseTest did not have import the files correct with the fileName and contents.
 
 ## Second Issue
 
 ![Image](labReport2-Issue2.png)
-[Link to test file](https://github.com/dhylan01/markdown-parse/blob/main/newMarkDownParse/test-file.md)
+[Link to test file](https://github.com/dhylan01/markdown-parse/blob/76dad1c876e11862ada2cde6c28a4a28fa40e86b/newMarkDownParse/test-file.md)
 
 Code after running: `PS D:\CSE15L\NewMarkDownParse\starter> java MarkdownParse.java test-file.md`
 
@@ -41,7 +41,7 @@ Problem that made the test fail:
 ## Third Issue
 
 ![Image](labReport2-Issue3.png)
-[Link to test file](https://github.com/dhylan01/markdown-parse/blob/main/oldMarkDownParse/break-test.md)
+[Link to test file](https://github.com/dhylan01/markdown-parse/blob/76dad1c876e11862ada2cde6c28a4a28fa40e86b/oldMarkDownParse/break-test.md)
 
 Code ran: `PS D:\CSE15L\NewMarkDownParse\starter> java MarkdownParse1.java break-test.md `
 
