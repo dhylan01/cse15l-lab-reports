@@ -3,6 +3,7 @@
 ## First Issue
 
 ![Image](labReport2-Issue1.png)
+
 [Link to test file](https://github.com/dhylan01/markdown-parse/blob/76dad1c876e11862ada2cde6c28a4a28fa40e86b/newMarkDownParse/test-file.md)
 
 Code after running `javac -cp ".;..\libs\junit-4.12.jar;..\libs\hamcrest-core-1.3.jar" MarkdownParseTest.java` :
@@ -22,6 +23,7 @@ Problem that made the test fail:
 ## Second Issue
 
 ![Image](labReport2-Issue2.png)
+
 [Link to test file](https://github.com/dhylan01/markdown-parse/blob/76dad1c876e11862ada2cde6c28a4a28fa40e86b/newMarkDownParse/test-file.md)
 
 Code after running: `PS D:\CSE15L\NewMarkDownParse\starter> java MarkdownParse.java test-file.md`
@@ -41,6 +43,7 @@ Problem that made the test fail:
 ## Third Issue
 
 ![Image](labReport2-Issue3.png)
+
 [Link to test file](https://github.com/dhylan01/markdown-parse/blob/76dad1c876e11862ada2cde6c28a4a28fa40e86b/oldMarkDownParse/break-test.md)
 
 Code ran: `PS D:\CSE15L\NewMarkDownParse\starter> java MarkdownParse1.java break-test.md `
