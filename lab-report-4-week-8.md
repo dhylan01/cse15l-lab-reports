@@ -1,3 +1,9 @@
+# Links to repos
+
+[My Repo](https://github.com/dhylan01/markdown-parse1)
+
+[Other Group's repo](https://github.com/yi113/markdown-parse)
+
 # Snippet 1
 
 - What it renders on VS code:
@@ -141,4 +147,4 @@ And there's still some more text after that.
 
 2. I thnk that this might be a longer change. That is because it would involve the case of checking for nested parenthesis which can be quite hard because any link nested in the brackets needs to be counted as a link as well. This would be its own seperate case to check for while the case of excluded brackets which would also be its own seperate case. These two cases might even require a change in the way that the next open / close bracket and parenthesis index variables are handled
 
-3. Yes. For this case my implimentation missed the last link because of the space in between the end of the link and the end parenthesis. For this one it would be a simple way of making close paren the next index of a close paren and then just making sure that the sting is correctly trimmed for any spaces that might get added to the link with the addition of a new line. 
+3. Yes. For this case my implimentation missed the last link because of the space in between the end of the link and the end parenthesis. For this one it would be a simple way of making close paren the next index of a close paren and then just making sure that the sting is correctly trimmed for any spaces that might get added to the link with the addition of a new line.
