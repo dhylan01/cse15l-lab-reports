@@ -5,3 +5,6 @@
 [Lab Report Week 6](https://dhylan01.github.io/cse15l-lab-reports/lab-report-week6.html)
 
 [Lab Report Week 8](https://dhylan01.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
+
+[Lab Report Week 10](https://dhylan01.github.io/cse15l-lab-reports/lab-report-week-10.html)
+
